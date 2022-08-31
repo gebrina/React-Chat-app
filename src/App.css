@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  .btn{
+    @apply px-3 py-2 hover:bg-blue-900 hover:text-white rounded shadow-orange-50 shadow-lg bg-gray-50 text-blue-900 text-2xl capitalize;
+  }
+
+  #you{
+    background-color: rgb(235, 229, 229);
+    color:gray;
+    width: 100%;
+    width: 45%;
+    position: relative;
+    border-radius: 20px;
+   padding: 5px;
+  }
+
+  #someone{
+    background-color: white;
+    color: steelblue;
+    width: 45%;
+    position:relative;
+    padding: 10px;
+    border-radius: 20px;
+    left: 50%;
+    margin: 10px;
+  }
+
+ .chat-container{
+  height: 260px;
+ }
